@@ -1,0 +1,23 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "phl.ra-11232-revised-corporation-code"
+           :title "An Act Providing for the Revised Corporation Code of the Philippines"
+           :jurisdiction "PHL"
+           :kind :law
+           :law-number "Republic Act No. 11232"
+           :url "https://lawphil.net/statutes/repacts/ra2019/ra_11232_2019.html"
+           :url-provenance :lawphil-net-legal-database
+           :enacted-date "2019-02-20"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "phl.ra-10173-data-privacy-act"
+           :title "Data Privacy Act of 2012"
+           :jurisdiction "PHL"
+           :kind :law
+           :law-number "Republic Act No. 10173"
+           :url "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+           :url-provenance :lawphil-net-legal-database
+           :enacted-date "2012-08-15"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}]
