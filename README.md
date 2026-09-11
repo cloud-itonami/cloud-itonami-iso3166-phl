@@ -3,7 +3,7 @@
 **`:implemented`** for **PHL**. Flagship `ph-entity-missing`, tax `sec-unverified`.
 
 ```
-clojure -M:dev:test
+kbb -M:dev:test
 ```
 
 ## Culture catalog
